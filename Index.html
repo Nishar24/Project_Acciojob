@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Pincode Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Indian Pincode Lookup</h1>
+    
+    <div class="input-group">
+      <input type="text" id="pincodeInput" placeholder="Enter 6-digit pincode" maxlength="6">
+      <button id="lookupBtn">Lookup</button>
+    </div>
+    
+    <div id="filterContainer" style="display: none;">
+      <input type="text" id="filterInput" placeholder="Filter by post office name">
+    </div>
+    
+    <div class="loader" id="loader"></div>
+    <div class="error" id="error"></div>
+    
+    <div class="results" id="results"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
